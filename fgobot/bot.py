@@ -30,7 +30,7 @@ class BattleBot:
                  friend: Union[str, List[str]] = 'friend.png',
                  stage_count = 3,
                  ap: List[str] = None,
-                 quest_threshold: float = 0.97,
+                 quest_threshold: float = 0.95,
                  friend_threshold: float = 0.97
                  ):
         """
